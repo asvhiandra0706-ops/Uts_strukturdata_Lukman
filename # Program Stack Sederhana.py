@@ -33,3 +33,11 @@ pop()
 
 # Menampilkan kembali
 display()
+
+def peek():
+    if len(stack) > 0:
+        print("Data paling atas:", stack[-1])
+    else:
+        print("Stack kosong")
+        
+peek()
